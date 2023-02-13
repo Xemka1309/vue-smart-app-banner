@@ -1,3 +1,3 @@
-import HelloWorld from './helloWorld.vue'
-export default HelloWorld
-export * from './helloWorld.vue'
+import SmartAppBanner from './SmartAppBanner.vue'
+export default SmartAppBanner
+export * from './SmartAppBanner.vue'

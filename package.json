@@ -1,22 +1,30 @@
 {
-  "name": "@logustra/vivu-npm",
-  "version": "0.1.7",
-  "description": "Starter template to build component library for vue.js 2-3",
-  "author": "Faizal Andyka",
+  "name": "vue-smart-app-banner",
+  "version": "0.0.1-alpha-1",
+  "description": "Smart banner for vue.js 2-3",
+  "author": "Maxim Makarevich",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/logustra/vivu-npm"
+    "url": "https://github.com/Xemka1309/vue-smart-app-banner"
   },
-  "bugs": "https://github.com/logustra/vivu-npm/issues",
+  "bugs": "https://github.com/Xemka1309/vue-smart-app-banner/issues",
   "keywords": [
-    "starter",
-    "boilerplate",
     "vue",
+    "vue2",
     "vue3",
     "component",
     "ui",
-    "frontend"
+    "frontend",
+    "appinstallbanner",
+    "smart",
+    "banner",
+    "smartbanner",
+    "smartappbanner",
+    "android",
+    "ios",
+    "iphone",
+    "application"
   ],
   "exports": {
     ".": {
@@ -58,12 +66,15 @@
     }
   },
   "dependencies": {
+    "bowser": "^2.11.0",
+    "js-cookie": "^3.0.1",
     "vue-demi": "^0.13.11"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.31.0",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "@types/js-cookie": "^3.0.2",
     "@types/node": "^18.11.9",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitest/coverage-c8": "^0.25.2",
